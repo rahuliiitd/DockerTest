@@ -1,0 +1,11 @@
+version: '2'
+services:
+  web:
+    container_name: simple_php
+    build: .
+    ports:
+    - "1092:80"
+    volumes:
+    - .:/myhome
+    tty: true
+    working_dir: /myhome
