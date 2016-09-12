@@ -1,0 +1,7 @@
+Run :
+$docker-compose up
+
+Test Example :
+curl http://127.0.0.1:1092/storepost.php -d "name=rahul&age=24" -XPOST
+
+The result will be stored in JSON format in outputFile
