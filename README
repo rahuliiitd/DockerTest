@@ -1,5 +1,6 @@
 Run :
 $docker-compose up
+$chmod +766 outputFile
 
 Test Example :
 curl http://127.0.0.1:1092/storepost.php -d "name=rahul&age=24" -XPOST
